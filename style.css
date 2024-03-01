@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+footer{
+    height: 14vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*logo part*/
+
+
+.nav-1{
+    height: 12vh;
+    width: 15vw;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.logo{
+    height: 12vh;
+    width: 12vw;
+}
+
+
+/*nav2part*/
+
+
+
+.nav-2{
+    width: 52vw;
+    height: 12vh;
+    
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.courses{
+    width: 13vw;
+    height: 8vh;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid rgb(139, 36, 235);
+    color:rgb(139, 36, 235) ;
+    background-color: white;
+    
+}
+
+
+
+
+/*nav3*/
+
+.nav-3{
+    width: 8vw;
+    height: 12vh;
+    display: none;
+    
+}
+
+
+/*nav-4*/
+
+
+
+
+.nav-4{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 25vw;
+    height: 12vh;
+    
+    
+    
+}
+
+.login{
+    height: 9vh;
+    width: 15vw;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 21px;
+    border: 2px solid rgb(139, 36, 235);
+    background-color: rgb(139, 36, 235);
+    color: white;
+}
+
+
+
+/*banner*/
+
+
+.banner{
+    height: 40vh;
+    width: 100vw;
+    background-image: url("banner1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    
+}
+
+
+.center{
+    display: flex;
+    
+}
+
+
+.about{
+    
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+}
+
+h1{
+    font-size: 8vh;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    margin-left: 40px;
+
+}
+
+span{
+    color: rgb(165, 100, 226);
+    
+}
+
+p{
+    font-size: 20px;
+    color: rgb(41, 38, 38);
+
+    margin-left: 40px;
+
+}
+
+
+
+
+.getstart{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: rgb(139, 36, 235);
+    color: white;
+    border: 2px solid rgb(139, 36, 235);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+
+}
+
+
+
+.talk{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.talkimg{
+    height: 50vh;
+    width: 50vw;
+
+}
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:600px) {
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-1{
+    display: flex;
+
+    height: 12vh;
+    width: 40vw;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo{
+    height: 70%;
+    width: 70%;
+}
+
+.nav-2{
+    display: none;
+}
+
+.nav-3{
+    display: flex;
+    
+    height: 12vh;
+    width: 30vw;
+    font-size: 5vh;
+    justify-content: end;
+    align-items: center;
+}
+
+
+    
+.nav-4{
+    display: flex;
+    width: 50vw;
+    justify-content: start;
+    margin-left: 3vw;
+    height: 12vh;
+}
+
+.login{
+    height: 7vh;
+    width: 35vw;
+    font-size: 69%;
+}
+
+.banner{
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+}
+    
+.about{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center ;
+}
+
+h1{
+    font-size: 7vw;
+}
+
+p{
+    font-size: 3vh;
+}
+
+.getstart{
+    padding: 10px 30px;
+}
+
+.talk{
+    width: 100vw;
+    height: 30vh;
+}
+
+.talkimg{
+    width: 100vw;
+    height: 30vh;
+}
+}
